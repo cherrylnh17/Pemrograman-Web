@@ -18,6 +18,7 @@
 
 
 
+
 .spans{
     font-family: 'Fira Code';
 }
@@ -45,6 +46,30 @@
 }
 
 
+.desainCard-1{
+    position: absolute;
+    top: 5%;
+    left: 7%;
+    background: #c0c7c7;
+    width: 40%;
+    height: 55%;
+    border-radius: 2em;
+    z-index: -2;
+    display: none;
+}
+
+.desainCard-2{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 65%;
+    left: 14%;
+    background: #646666;
+    width: 25%;
+    height: 10%;
+    border-radius: 2em 0 2em 0;
+    z-index: 1;
+    display: none;
+}
 
 @keyframes gradient {
     0% {
@@ -55,5 +80,11 @@
     }
     100% {
     background-position: 0% 50%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .desainCard-1, .desainCard-2{
+        display: block;
     }
 }
