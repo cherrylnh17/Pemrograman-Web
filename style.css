@@ -17,6 +17,7 @@
 }
 
 
+
 .spans{
     font-family: 'Fira Code';
 }
@@ -33,3 +34,26 @@
     font-size: 1rem;
 }
 
+.iconSosial a i{
+    font-size: 1.5rem;
+    transition: color .5s ease-in, transform .5s ease-in-out;
+}
+
+.iconSosial a i:hover{
+    color: blue;
+    transform: scale(1.2);
+}
+
+
+
+@keyframes gradient {
+    0% {
+    background-position: 0% 50%;
+    }
+    50% {
+    background-position: 100% 50%;
+    }
+    100% {
+    background-position: 0% 50%;
+    }
+}
